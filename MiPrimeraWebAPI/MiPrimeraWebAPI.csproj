@@ -169,7 +169,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BDDoctor.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Models\ClinicaCLS.cs" />
     <Compile Include="Models\DoctorCLS.cs" />
+    <Compile Include="Models\EspecialidadCLS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
