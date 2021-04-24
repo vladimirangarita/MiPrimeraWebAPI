@@ -4,9 +4,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using MiPrimeraWebAPI.Models;
 namespace MiPrimeraWebAPI.Controllers
 {
+    [EnableCors(headers:"*",origins:"*",methods:"*")]
     public class ClinicaController : ApiController
     {
         [HttpGet]

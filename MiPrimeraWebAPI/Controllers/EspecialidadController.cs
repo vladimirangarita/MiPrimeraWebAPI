@@ -5,9 +5,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace MiPrimeraWebAPI.Controllers
 {
+    [EnableCors(headers: "*", origins: "*", methods: "*")]
     public class EspecialidadController : ApiController
     {
         [HttpGet]
